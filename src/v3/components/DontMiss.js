@@ -1,13 +1,15 @@
 import React from 'react'
 import styles, { layout } from '../../style'
 import Button from './Button'
-import { image_hp, image_miss } from '../assets'
+import { image_hp, image_miss, image_hp2 } from '../assets'
 
 const DontMiss = () => {
     return (
         <section className={layout.sectionReverse}>
             <div className={`${layout.sectionImgReverse}`}>
-                <img src={image_hp} alt="billing" className="object-contain w-[100%] h-[100%] relative z-[5]" />
+                <a href='https://www.instagram.com/sahabatfolka/' target='_blank' rel='noreferrer'>
+                    <img src={image_hp2} alt="billing" className="object-contain w-[100%] h-[100%] relative z-[5]" />
+                </a>
             </div>
 
             <div className={`${layout.sectionImg} relative`}>
@@ -18,7 +20,7 @@ const DontMiss = () => {
                     <p class={`font-nunito font-normal text-white ss:text-[18px] text-[14px] ss:leading-[30.8px] leading-[20.8px] text-center`}>
                         Tungguin terus info-info menarik dari Folka<br></br> {" "}lewat Instagram kita yaa
                     </p>
-                    
+
                     <div className={`${styles.flexCenter}`}>
                         <Button styles={`ss:mt-5 ss:py-4 ss:px-6 ss:text-[18px] mt-2 py-2 px-4 text-[12px]`} text="Follow IG Folka" link="https://www.instagram.com/sahabatfolka/" />
                     </div>

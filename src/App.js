@@ -16,6 +16,7 @@ import styles from './style';
 
 // v3
 import { Navbar, Hero, HeaderAbout, About, DontMiss, Download, Profile, Footer, PeopleSay } from './v3/components';
+import AllAbout from './v3/components/AllAbout';
 
 function App() {
   return (
@@ -78,12 +79,13 @@ function App() {
       </div>
 
       <div class="divide-y-2 divide-white divide-dashed">
-        <div className={`bg-dark-purple ${styles.paddingX} ${styles.flexStart}`}>
+        <AllAbout></AllAbout>
+        {/* <div className={`bg-dark-purple ${styles.paddingX} ${styles.flexStart}`}>
           <div className={`${styles.boxWidth}`}>
             <HeaderAbout></HeaderAbout>
             <About></About>
           </div>
-        </div>
+        </div> */}
 
         <div className={`bg-dark-purple ${styles.paddingX} ${styles.flexStart}`}>
           <div className={`${styles.boxWidth}`}>

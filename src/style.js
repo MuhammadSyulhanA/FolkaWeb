@@ -4,6 +4,7 @@ const styles = {
 
     heading1: "font-nunito font-extrabold xs:text-[48px] text-[32px] text-white xs:leading-[76.8px] leading-[66.8px] w-full",
     heading2: "font-nunito font-extrabold xs:text-[38px] text-[26px] text-white xs:leading-[76.8px] leading-[66.8px] w-full",
+    heading3: "font-nunito font-extrabold xs:text-[38px] text-[26px] text-white xs:leading-[51.83px] leading-[51.83px] w-full",
     paragraph: "font-nunito font-normal text-white text-[18px] leading-[30.8px]",
 
     flexCenter: "flex justify-center items-center",

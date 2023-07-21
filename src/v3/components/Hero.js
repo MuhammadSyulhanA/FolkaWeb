@@ -10,12 +10,12 @@ const Hero = () => {
                 <div className='flex flex-row justify-between items-center w-full'>
                     <h1 className='flex-1 font-nunito font-extrabold ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px]'>
                         Bring Folklore <br className='sm:block hidden'></br> {" "}
-                        <span>To Life with Folka</span> {" "}
+                        <span>to Life with Folka</span> {" "}
                     </h1>
                 </div>
 
                 <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-                    Aplikasi dongeng interaktif dan eksploratif untuk anak-anak cerdas dan penuh rasa ingin tau!
+                    Aplikasi dongeng interaktif dan eksploratif untuk<br className='sm:block hidden'></br> {" "} anak-anak cerdas dan penuh rasa ingin tau!
                 </p>
                 <Button styles={`mt-10 py-4 px-6 text-[18px]`} text="Cobain Sekarang!" link="https://apps.apple.com/id/app/folka-buku-dongeng-anak/id6444809668?l=id" />
             </div>

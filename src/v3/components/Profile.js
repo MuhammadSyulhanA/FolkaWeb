@@ -13,6 +13,7 @@ const Profile = () => {
                 <div className='max-w-screen-xl p-4 mx-auto flex flex-col justify-center w-full h-full'>
 
                     <div className='py-4 font-nunito text-2xl md:text-4xl text-black font-black'>Kontak kita untuk kolaborasi yuk!</div>
+                    <div className='py-4 font-nunito text-xl md:text-2xl text-black font-bold'>For business and collaborations: <br></br>sahabatfolka@gmail.com</div>
                     <div id='content' className='carousel flex items-center justify-start overflow-x-auto scrollbar-hide'>
 
                         {dataProfile.map((card) => <div><ProfileCard key={card.id} {...card} /></div>)}

@@ -29,6 +29,7 @@ import image_choiceending from "./image_choiceending.png"
 import image_hero from "./image_hero.png"
 import image_homepage from "./image_homepage.png"
 import image_hp from "./image_hp.png"
+import image_hp2 from "./image_hp2.png"
 import image_minigames from "./image_minigames.png"
 import image_miss from "./image_miss.png"
 import image_people from "./image_people.png"
@@ -89,5 +90,6 @@ export {
   pp_han,
   pp_putri,
   pp_rara,
-  pp_step
+  pp_step,
+  image_hp2
 };

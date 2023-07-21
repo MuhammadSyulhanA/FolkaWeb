@@ -11,11 +11,11 @@ const About = () => {
         </div>
 
         <div className={layout.sectionInfoTwo}>
-          <h2 className={styles.heading2}>
+          <h2 className={styles.heading3}>
             Jalan Cerita<br className="sm:block hidden" /> Interaktif
           </h2>
           <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-            Mengajak anak untuk membuat keputusan dan eksplorasi mandiri untuk membangun rasa percaya diri, berpikir kritis dan kemampuan memecahkan masalah.
+            Mengajak anak untuk <span className='font-bold'>membuat <br className='sm:block hidden'></br>keputusan dan eksplorasi <br className='sm:block hidden'></br>mandiri</span> untuk <span className='font-bold'>membangun rasa <br className='sm:block hidden'></br>percaya diri, berpikir kritis dan <br className='sm:block hidden'></br>kemampuan memecahkan <br className='sm:block hidden'></br>masalah.</span>
           </p>
 
         </div>
@@ -23,11 +23,11 @@ const About = () => {
 
       <section className={layout.section}>
         <div className={layout.sectionInfoTwo}>
-          <h2 className={styles.heading2}>
+          <h2 className={styles.heading3}>
             Mini Games
           </h2>
           <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-            Permainan logika untuk meningkatkan keterampilan berpikir logis, empati dan pemahaman membaca.
+            Permainan logika untuk <span className='font-bold'><br className='sm:block hidden'></br>meningkatkan keterampilan <br className='sm:block hidden'></br>berpikir logis, empati dan <br className='sm:block hidden'></br>pemahaman membaca.</span>
           </p>
         </div>
 
@@ -42,11 +42,11 @@ const About = () => {
         </div>
 
         <div className={layout.sectionInfoTwo}>
-          <h2 className={styles.heading2}>
+          <h2 className={styles.heading3}>
             Konten Cerita<br className="sm:block hidden" /> Terbaik
           </h2>
           <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-            Pilihan cerita rakyat Indonesia terbaik yang disesuaikan untuk anak.
+            Pilihan cerita rakyat Indonesia <br className='sm:block hidden'></br>terbaik yang <span className='font-bold'>disesuaikan <br className='sm:block hidden'></br>untuk anak.</span>
           </p>
 
         </div>
@@ -54,11 +54,11 @@ const About = () => {
 
       <section className={layout.section}>
         <div className={layout.sectionInfoTwo}>
-          <h2 className={styles.heading2}>
+          <h2 className={styles.heading3}>
             Audio Dongeng
           </h2>
           <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-            Membacakan dongeng pada anak membantu mereka memvisualisasi kata-kata yang diucapkan dan meningkatkan keterampilan komunikasi.
+            Membacakan dongeng pada anak <br className='sm:block hidden'></br>membantu mereka <span className='font-bold'>memvisualisasi <br className='sm:block hidden'></br>kata-kata yang diucapkan</span> dan <span className='font-bold'><br className='sm:block hidden'></br>meningkatkan keterampilan <br className='sm:block hidden'></br>komunikasi.</span>
           </p>
         </div>
 
